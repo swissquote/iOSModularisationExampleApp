@@ -1,0 +1,72 @@
+{
+  "configurations": [
+    {
+      "id": "F21C7B58-FC5A-4E80-9B53-EACF1EC4A427",
+      "name": "Configuration 1",
+      "options": {}
+    }
+  ],
+  "defaultOptions": {
+    "language": "en",
+    "region": "CH"
+  },
+  "testTargets": [
+    {
+      "target": {
+        "containerPath": "container:Features/Home",
+        "identifier": "HomeFeatureDomainTests",
+        "name": "HomeFeatureDomainTests"
+      }
+    },
+    {
+      "target": {
+        "containerPath": "container:Features/Home",
+        "identifier": "HomeFeatureDataTests",
+        "name": "HomeFeatureDataTests"
+      }
+    },
+    {
+      "target": {
+        "containerPath": "container:Features/Home",
+        "identifier": "HomeFeaturePresentationTests",
+        "name": "HomeFeaturePresentationTests"
+      }
+    },
+    {
+      "target": {
+        "containerPath": "container:Features/Details",
+        "identifier": "DetailsFeatureDomainTests",
+        "name": "DetailsFeatureDomainTests"
+      }
+    },
+    {
+      "target": {
+        "containerPath": "container:Features/Details",
+        "identifier": "DetailsFeatureDataTests",
+        "name": "DetailsFeatureDataTests"
+      }
+    },
+    {
+      "target": {
+        "containerPath": "container:Features/Details",
+        "identifier": "DetailsFeaturePresentationTests",
+        "name": "DetailsFeaturePresentationTests"
+      }
+    },
+    {
+      "target": {
+        "containerPath": "container:Features/AddEvent",
+        "identifier": "AddEventFeatureDomainTests",
+        "name": "AddEventFeatureDomainTests"
+      }
+    },
+    {
+      "target": {
+        "containerPath": "container:Features/AddEvent",
+        "identifier": "AddEventFeaturePresentationTests",
+        "name": "AddEventFeaturePresentationTests"
+      }
+    }
+  ],
+  "version": 1
+}
